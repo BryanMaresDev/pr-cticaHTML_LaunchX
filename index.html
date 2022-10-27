@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Tacos "El Jefe"</title>
+    </head>
+    <body>
+        <header>
+            <h1>Tacos "El Jefe", desde 2022</h1>
+        </header>   
+        <img src="./img/" alt="Logo de Tacos El Jefe">
+
+        <section>
+            <h2>MENÚ</h2>
+            <h3>Tacos grandes</h3>
+            <p>Todos incluyen nopales y cebollas</p>
+            <ul>
+                <li><b>Bisteck</b> ............$30</li>
+                <li><b>Chorizo</b> ............$30</li>
+                <li><b>Pastor</b>  ............$30</li>
+                <li><b>Tripa</b>   ............$30</li>
+                <li><b>Lengua</b>  ............$30</li>
+            </ul>
+            <h3>Tacos pequeños</h3>
+            <p>Con cílantro y cebolla</p>
+            <ul>
+                <li><b>Bisteck</b> ............$15</li>
+                <li><b>Chorizo</b> ............$15</li>
+                <li><b>Pastor</b>  ............$15</li>
+                <li><b>Tripa</b>   ............$15</li>
+                <li><b>Lengua</b>  ............$15</li>
+            </ul>
+            <h3>Especiales</h3>
+            <p>Hazlo combo por $10 extra</p>
+            <dl>
+                <dt><b>Labrador</b>...........$40</dt>
+                <dd>-Tortilla de maíz con pollo asado</dd>
+                <dt><b>Pastor Áleman</b>......$40</dt>
+                <dd>-Tortilla de harina con carne de res y queso</dd>
+                <dt><b>Pug</b>................$40</dt>
+                <dd>-Tortilla de maíz con chuleta</dd>
+                <dt><b>Adoptado</b>...........$40</dt>
+                <dd>-Tortilla de maíz con chorizo sin papas</dd>
+            </dl>
+        </section>
+
+        <hr>
+
+        <section> 
+            <h2>Ubicación</h2>
+            <h3>Sucursales</h3>
+            <table>
+                <tr>
+                    <th>Nombre</th>
+                    <th>Ubicación</th>
+                    <th>Horarios</th>
+                </tr>
+                <tr>
+                    <td>Centro</td>
+                    <td>
+                        <a href="https://goo.gl/maps/k7CR6gftL2QXiAdV6" target="_blank">
+                            C. Morelos 1803, Jardines del Country, Villarreal
+                        </a>
+                    </td>
+                    <td>Martes a Domingo | 10:00 AM - 02:00 AM</td>
+                </tr>
+                <tr>
+                    <td>Sur</td>
+                    <td>
+                        <a href="https://goo.gl/maps/WPJgqcRBSfiJQJdh6" target="_blank">
+                            Antonio mari, J. M. Antonio Bucareli 526, La Esperanza
+                        </a>
+                    </td>
+                    <td>Martes a Domingo | 10:00 AM - 02:00 AM</td>
+                </tr>
+                <tr>
+                    <td>Centro</td>
+                    <td>
+                        <a href="https://goo.gl/maps/2gTG6jqGqjoTP9D39" target="_blank">
+                            Carr Salamanca- La Ordeña
+                        </a>
+                    </td>
+                    <td>Martes a Domingo | 10:00 AM - 02:00 AM</td>
+                </tr>
+            </table>
+        </section>
+
+        <section>
+            <h2>Pedidos</h2>
+            <h3>Haz tu pedido aquí</h3>
+            <form action="">
+                <p>¿De qué taquería quieres?</p>
+                <select>
+                    <option value="Norte">Norte</option>
+                    <option value="Centro">Centro</option>
+                    <option value="Sur">Sur</option>
+                </select>
+                <p>¿De qué tacos quieres?</p>
+                <input type="checkbox" name="Bisteck" id="Bisteck" value="Bisteck">
+                <label for="Bisteck">Bisteck</label>
+                <input type="number" name="BisteckNumber" id="BisteckNumber" placeholder="¿Cuántos?">
+                <br>
+                <input type="checkbox" name="Chorizo" id="Chorizo" value="Chorizo">
+                <label for="Chorizo">Chorizo</label>
+                <input type="number" name="ChorizoNumber" id="ChorizoNumber" placeholder="¿Cuántos?">
+                <br>
+                <input type="checkbox" name="Pastor" id="Pastor" value="Pastor">
+                <label for="Pastor">Pastor</label>
+                <input type="number" name="PastorNumber" id="PastorNumber" placeholder="¿Cuántos?">
+                <br>
+                <input type="checkbox" name="Tripa" id="Tripa" value="Tripa">
+                <label for="Tripa">Tripa</label>
+                <input type="number" name="TripaNumber" id="TripaNumber" placeholder="¿Cuántos?">
+                <br>
+                <input type="checkbox" name="Lengua" id="Lengua" value="Lengua">
+                <label for="Lengua">Lengua</label>
+                <input type="number" name="LenguaNumber" id="LenguaNumber" placeholder="¿Cuántos?">
+                <br><br>
+                <label for="Nombre">Nombre:</label>
+                <input type="text" name="Nombre" id="Nombre" placeholder="¿Cómo te llamas?">
+                <br>
+                <label for="Teléfono">Teléfono:</label>
+                <input type="text" name="Teléfono" id="Teléfono" placeholder="¿Tu número?">
+                <br>
+                <label for="Dirección">Dirección:</label>
+                <input type="text" name="Dirección" id="Dirección" placeholder="¿A dónde los llevamos?">
+                <br><br>
+                <button type="submit">Realizar pedido</button>
+            </form>
+        </section>
+    </body>
+</html>
